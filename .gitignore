@@ -1,0 +1,67 @@
+########################################
+# Build output
+########################################
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+########################################
+# IDE/project files
+########################################
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+########################################
+# OS junk
+########################################
+.DS_Store
+Thumbs.db
+
+########################################
+# Logs & temp
+########################################
+*.log
+logs/
+tmp/
+temp/
+
+########################################
+# Local databases & uploads
+########################################
+# H2 file DB (avoid committing real data)
+*.mv.db
+*.trace.db
+
+# Uploaded files folder from your app
+uploads/
+
+########################################
+# Node/Frontend (if any)
+########################################
+node_modules/
+dist/
+build/
+
+########################################
+# Credentials / local config
+########################################
+# Keep real secrets out of git — commit example files instead
+.env
+.env.local
+application-local.properties
+application-secret.properties
+
+# If you must publish example config, create:
+# application.properties.example (safe placeholders)
